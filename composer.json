@@ -1,0 +1,16 @@
+{
+    "name": "moh/blog",
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "src/",
+            "Blog\\Database\\": "src/Database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Elkharraz",
+            "email": "alkharraz1991@gmail.com"
+        }
+    ],
+    "require": {}
+}
