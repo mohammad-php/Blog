@@ -20,9 +20,9 @@ class DatabaseQuery
 
     public function execute($sqlString)
     {
-        $query = $this->dbConnection->query($sqlString);
+        $query = $this->dbConnection->query($sqlString, PDO::FETCH_ASSOC);
         if (empty($query)) {
-            return $this->dbConnection->errorMsg();
+            return $this->dbConnection->errorInfo();
         }
         return $query->fetch();
     }

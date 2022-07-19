@@ -4,3 +4,5 @@
 #### - Password Hashing For User Password
 #### - Implement Modular Architecture
 #### - Create Services Directory To Handle Business Logic
+#### - Create Factories For Managing Object Creation
+#### - Code Enhancements
