@@ -32,7 +32,7 @@ class UserService
     public function checkUserCredentials(array $request)
     {
         $user = $this->userModel->getUser($request);
-        if($user !== null) {
+        if($user) {
             $_SESSION['username'] = $user->getName();
             return $user;
         }
