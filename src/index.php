@@ -1,6 +1,12 @@
 <?php
 
-// For Testing
+/*
+ * For Testing Purposes
+ *
+ * */
+
+
+
 
 use Blog\Database\DatabaseConfig;
 use Blog\Database\DatabaseConnection;
@@ -8,6 +14,12 @@ use Blog\Database\DatabaseQuery;
 use Blog\Repositories\ArrayEntityManager;
 use Blog\Repositories\User\UserDataMapper;
 use Blog\Repositories\User\UserRepository;
+
+
+
+require_once 'Config/Router.php';
+
+/////////
 
 require_once 'Database/DatabaseConfig.php';
 require_once 'Database/DatabaseConnection.php';

@@ -4,9 +4,7 @@
         "psr-4": {
             "Blog\\": "src/",
             "Blog\\Database\\": "src/Database/",
-            "Blog\\Database\\": "src/Database/",
-            "Blog\\Repositories\\": "src/Repositories/",
-            "Blog\\Repositories\\User\\": "src/Repositories/User/"
+            "Blog\\Repositories\\": "src/Repositories/"
         }
     },
     "autoload-dev": {
@@ -21,6 +19,7 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "erickfirmo/router": "^1.1"
     }
 }
